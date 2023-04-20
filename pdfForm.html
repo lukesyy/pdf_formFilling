@@ -16,9 +16,8 @@
 		<script src="./static/dataToPdf.js"></script>
 		<script>
 			document.getElementById('lod').onclick = function(){
-			let pdfUrl ='./static/11.pdf'
-			// localStorage.setItem('reportPdf',pdfUrl)
-			// window.location.href = "pdf.html";
+			let pdfUrl ='https://neuclien.oss-cn-beijing.aliyuncs.com/orgtemplate/11lawke00001.pdf'
+		//匹配可编写的pdf变量
 			dataToPdf(pdfUrl,{patientName:['1155555511'],department:['dadad']})
 		} 
 

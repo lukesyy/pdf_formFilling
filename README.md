@@ -1,1 +1,3 @@
-# pdf_formFilling
+# pdf 或者 图片 表单填充
+ pdf文件需要是可编写的PDF
+当然你也可以把普通的pdf转成图片然后使用图片填充然后再转成pdf
