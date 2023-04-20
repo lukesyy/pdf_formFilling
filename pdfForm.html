@@ -1,0 +1,27 @@
+<!--
+ * Pdf空白表单填充
+ * @Date: 2022-04-25 14:49:57
+ * @LastEditors: Lukesy
+ * @LastEditTime: 2022-04-27 10:35:24
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>pdf</title>
+	<body>
+		<button id="lod">Download</button>
+		<script src="./static//pdfform.js"></script>
+		<script src="./static/dataToPdf.js"></script>
+		<script>
+			document.getElementById('lod').onclick = function(){
+			let pdfUrl ='./static/11.pdf'
+			// localStorage.setItem('reportPdf',pdfUrl)
+			// window.location.href = "pdf.html";
+			dataToPdf(pdfUrl,{patientName:['1155555511'],department:['dadad']})
+		} 
+
+		</script>
+	</body>
+</html>
